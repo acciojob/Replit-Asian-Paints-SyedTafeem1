@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+body{
+	width:100vw;
+	height:100vh;
+}
+#grid-container{
+	width:90vw;
+	height:70vh;
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	background-color:transparen;
+	gap:10px;
+	padding:10px;
+}
+.grid-item{
+	/* height:150px; */
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:transparent;
+	border-radius:10px;
+}
+input{
+	width:70vw;
+	height:30px;
+	padding:10px;
+	margin:5px;
+}
+p{
+	margin-left:10px;
+}
+#change_button{
+	width:250px;
+	height:30px;
+	margin:10px;
+	background-color:lightblue;
+	border:none;
+	border-radius:10px;
+	cursor:pointer;
+}
+#Reset{
+	width:250px;
+	height:30px;
+	background-color:crimson;
+	border:none;
+	color:white;
+	border-radius:10px;
+	cursor:pointer;
+}
